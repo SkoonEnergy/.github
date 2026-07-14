@@ -1,0 +1,56 @@
+name: Bug
+description: Report an unexpected problem or behavior.
+title: "[Bug]: "
+type: Bug
+projects: ["SkoonEnergy/3"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug. Please provide enough detail for us to reproduce it.
+  - type: textarea
+    id: observed-behavior
+    attributes:
+      label: Observed behavior
+      description: What happened?
+      placeholder: Describe the unexpected behavior, including any error messages.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Provide the smallest set of steps that reliably reproduces the problem.
+      placeholder: |
+        1. Go to ...
+        2. Enter ...
+        3. Click ...
+        4. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include relevant versions, device, browser, operating system, or configuration details.
+      placeholder: |
+        - Version:
+        - Device:
+        - Browser:
+        - Operating system:
+    validations:
+      required: false
+  - type: textarea
+    id: supporting-context
+    attributes:
+      label: Supporting context
+      description: Add screenshots, logs, links, or other information that may help investigate.
+    validations:
+      required: false

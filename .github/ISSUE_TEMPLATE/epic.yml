@@ -1,0 +1,48 @@
+name: Epic
+description: Define a large initiative that contains related work.
+title: "[Epic]: "
+type: Epic
+projects: ["SkoonEnergy/3"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use an epic to describe a larger initiative and its intended outcome.
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What goal should this epic achieve, and why is it important?
+      placeholder: Describe the desired outcome and its value.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Describe what is included and excluded from this epic.
+      placeholder: |
+        Included:
+        - ...
+
+        Excluded:
+        - ...
+    validations:
+      required: true
+  - type: textarea
+    id: success-criteria
+    attributes:
+      label: Success criteria
+      description: How will we know this epic has succeeded?
+      placeholder: |
+        - [ ] Criterion one
+        - [ ] Criterion two
+    validations:
+      required: true
+  - type: textarea
+    id: related-work
+    attributes:
+      label: Related work
+      description: Link related issues, dependencies, or follow-up work.
+    validations:
+      required: false
