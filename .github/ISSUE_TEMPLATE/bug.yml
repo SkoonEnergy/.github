@@ -7,50 +7,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for reporting a bug. Please provide enough detail for us to reproduce it.
+        Thank you for reporting a bug.
   - type: textarea
-    id: observed-behavior
+    id: description
     attributes:
-      label: Observed behavior
-      description: What happened?
-      placeholder: Describe the unexpected behavior, including any error messages.
+      label: What happened?
+      description: Briefly describe the unexpected behavior and what you expected instead.
     validations:
       required: true
   - type: textarea
-    id: expected-behavior
+    id: context
     attributes:
-      label: Expected behavior
-      description: What did you expect to happen instead?
-    validations:
-      required: true
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps to reproduce
-      description: Provide the smallest set of steps that reliably reproduces the problem.
-      placeholder: |
-        1. Go to ...
-        2. Enter ...
-        3. Click ...
-        4. Observe ...
-    validations:
-      required: true
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment
-      description: Include relevant versions, device, browser, operating system, or configuration details.
-      placeholder: |
-        - Version:
-        - Device:
-        - Browser:
-        - Operating system:
-    validations:
-      required: false
-  - type: textarea
-    id: supporting-context
-    attributes:
-      label: Supporting context
-      description: Add screenshots, logs, links, or other information that may help investigate.
+      label: Reproduction or context
+      description: Add steps, environment details, screenshots, logs, or anything else that may help.
     validations:
       required: false

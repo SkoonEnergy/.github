@@ -12,37 +12,13 @@ body:
     id: objective
     attributes:
       label: Objective
-      description: What goal should this epic achieve, and why is it important?
-      placeholder: Describe the desired outcome and its value.
+      description: What goal should this epic achieve?
     validations:
       required: true
   - type: textarea
-    id: scope
+    id: context
     attributes:
-      label: Scope
-      description: Describe what is included and excluded from this epic.
-      placeholder: |
-        Included:
-        - ...
-
-        Excluded:
-        - ...
-    validations:
-      required: true
-  - type: textarea
-    id: success-criteria
-    attributes:
-      label: Success criteria
-      description: How will we know this epic has succeeded?
-      placeholder: |
-        - [ ] Criterion one
-        - [ ] Criterion two
-    validations:
-      required: true
-  - type: textarea
-    id: related-work
-    attributes:
-      label: Related work
-      description: Link related issues, dependencies, or follow-up work.
+      label: Scope or context
+      description: Add scope, success criteria, related work, or any useful details.
     validations:
       required: false

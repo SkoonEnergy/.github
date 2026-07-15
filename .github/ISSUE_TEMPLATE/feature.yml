@@ -9,28 +9,16 @@ body:
       value: |
         Thank you for proposing an improvement.
   - type: textarea
-    id: problem
+    id: proposal
     attributes:
-      label: Problem or opportunity
-      description: What problem should this feature solve, and for whom?
-      placeholder: Describe the current situation and why it needs to improve.
+      label: What would you like?
+      description: Describe the feature or improvement you have in mind.
     validations:
       required: true
   - type: textarea
-    id: proposed-solution
+    id: context
     attributes:
-      label: Proposed solution
-      description: Describe the behavior or outcome you would like.
-      placeholder: As a ..., I want ..., so that ...
+      label: Context
+      description: Add the problem it solves, examples, links, or any other useful details.
     validations:
-      required: true
-  - type: textarea
-    id: acceptance-criteria
-    attributes:
-      label: Acceptance criteria
-      description: List the conditions that must be met for this feature to be complete.
-      placeholder: |
-        - [ ] Criterion one
-        - [ ] Criterion two
-    validations:
-      required: true
+      required: false
