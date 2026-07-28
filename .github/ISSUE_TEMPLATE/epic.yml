@@ -1,6 +1,6 @@
 name: Epic
 description: Define a large initiative that contains related work.
-title: "[Epic]: "
+title: "[Epic]:"
 type: Epic
 projects: ["SkoonEnergy/3"]
 body:

@@ -1,6 +1,6 @@
 name: Feature
 description: Propose a new capability or improvement.
-title: "[Feature]: "
+title: "[Feature]:"
 type: Feature
 projects: ["SkoonEnergy/3"]
 body:

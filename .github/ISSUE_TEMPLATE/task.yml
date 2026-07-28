@@ -1,6 +1,6 @@
 name: Task
 description: Create a focused piece of work.
-title: "[Task]: "
+title: "[Task]:"
 type: Task
 projects: ["SkoonEnergy/3"]
 body:
